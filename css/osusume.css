@@ -1,0 +1,249 @@
+.osusume-title-flex {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.os_title {
+    color: #F27100;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.os_film {
+    position: relative;
+}
+
+.kihon {
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 64px;
+    margin-left: 60px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    box-shadow: #F27100 -8px 0px 0px 0px;
+}
+
+.os-kihon_wrap {
+    width: 100%;
+    margin: 0 auto 32px auto;
+    border-radius: 16px;
+    padding: 24px 32px 32px 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.os_list_wrap {
+    width:50%;
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+.os_list{
+    list-style: none;
+    padding-left: 16px;
+    margin: 0px;
+    margin-left: auto;
+    font-size: 1.5rem;
+    color: #333;
+    box-shadow: #F27100 -3px 0px 0px 0px;
+}
+
+.os_list2 {
+    list-style: none;
+    padding-left: 24px;
+    margin: 0px;
+    margin-right: auto;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+}
+
+.os_list li {
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.os_list2 li {
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.li_orange {
+    color: #F27100;
+}
+
+.os_img {
+    display: block;
+    max-width: 400px;
+    width: 50%;
+    /* margin: 0 auto; */
+    margin-right: auto;
+    align-self: center;
+}
+
+.osusume-title-flex {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    text-align: left;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.os_back {
+    width: 100%;
+    background-image: url(../img/back.svg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 1700px;
+}
+
+.os_film {
+    padding: 16px;
+    top: 18px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    width: 97%;
+    height: 97%;
+    flex-shrink: 0;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: 0px 0px 25px -10px #F27100;
+}
+
+.memo_wrap_wrap {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.os_memo {
+    font-size: 1.4rem;
+    width: 340px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.os_memo {
+    width: 50%;
+    text-align: center;
+
+}
+
+.memo_wrap {
+    font-size: 1rem;
+     font-weight: 400;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    padding: 32px 32px 32px 32px;
+    border-radius: 18px;
+    min-height: 180px;
+}
+
+.memo_wrap .kado_up {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: auto;
+    scale: 0.5;
+}
+
+.memo_wrap .kado_down {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 48px;
+    height: auto;
+    transform: rotate(180deg);
+    scale: 0.5;
+}
+
+.syouhinn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 24px 20px 20px 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 16px;
+}
+
+.card ul {
+    width: 100%;
+    text-align: left;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+.card_title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.card_nedan {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+}
+
+.card_comment{
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 4px;
+
+}
+
+.card_moji{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.button_back {
+    margin-top: 50px;
+    cursor: pointer;
+    transition: filter 0.2s;
+    scale: 0.8;
+}
+
+.button_back:hover {
+    content: url('../img/button_ba_hv.svg');
+}

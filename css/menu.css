@@ -1,0 +1,100 @@
+@charset "UTF-8";/* vector-icon ホバー時の画像切り替え */
+.back-icon {
+  transition: filter 0.2s;
+  scale: 1.1;
+  left: 10px;
+}
+.back-icon:hover {
+  content: url('../img/button_al_hv.svg');
+}
+
+.overlay-catchcopy {
+  position: absolute;
+  left: 5px;
+  bottom: 32px;
+  color: #F27100;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: rgba(255,255,255,0.85);
+  border-radius: 12px;
+  padding: 16px 28px;
+  letter-spacing: 0.05em;
+  z-index: 1020;
+  pointer-events: none;
+  text-align: left;
+  box-shadow: none;
+}
+
+.close-btn-img {
+  width: 80px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.overlay-menu .close-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  top: 16px;
+  right: 24px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1010;
+}
+
+/* オーバーレイメニュー */
+.overlay-menu {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  width: 380px;
+  height: 100vh;
+  background: rgba(255,255,255,0.98);
+  box-shadow: -4px 0 24px rgba(0,0,0,0.12);
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(.4,0,.2,1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px 24px;
+}
+.overlay-menu.open {
+  transform: translateX(0);
+}
+.overlay-menu .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  color: #F27100;
+  cursor: pointer;
+  z-index: 1010;
+}
+.overlay-menu ul {
+  list-style: none;
+  margin: 120px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-end;
+  text-align: right;
+}
+.overlay-menu li a {
+  color: #F27100;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.overlay-menu li a:hover {
+  color: #ff8c42;
+}
+
+
+
+

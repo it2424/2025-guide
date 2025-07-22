@@ -1,0 +1,12 @@
+<svg width="140" height="210" viewBox="0 0 140 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M105 35H140V70H105V35Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M105 70H140V105H105V70Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M105 105H140V140H105V105Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M105 140H140V175H105V140Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M70 88H105V123H70V88Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M0 35H35V70H0V35Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M0 140H35V175H0V140Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M35 88H70V123H35V88Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M0 175H140V210H0V175Z" fill="#F27100" fill-opacity="0.35"/>
+<path d="M0 0H140V35H0V0Z" fill="#F27100" fill-opacity="0.35"/>
+</svg>

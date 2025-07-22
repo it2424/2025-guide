@@ -1,0 +1,358 @@
+@media (max-width: 910px) {
+
+.taitoru{
+    font-size: 20px;
+    line-height: 100%;
+    gap: 0px;
+}
+
+.top_moji{
+    background: #FFF;
+    width: 100%;
+    left: 10px;
+    color:  #F27100;;
+    font-size: 16px;
+    -webkit-text-stroke-width: 0px;
+}
+
+.blanc_w {
+    width: 100%;
+    border: 4px solid #ffffff;
+}
+
+.blanc_o {
+    width: 100%;
+    border: 4px solid #F27100;
+}
+
+.blanc_4o {
+    width: 100%;
+    border: 16px solid #F27100;
+}
+
+.vector-icon{
+    scale: 0.6;
+}
+
+.carten{
+    top: 9px;
+    padding: 15px 20px;
+    height: 97.5%;
+}
+
+.midasi_w {
+    color: #ff8f8f;
+    -webkit-text-stroke-width: 0px;
+    font-size: 24px;
+}
+
+.midasi_o {
+    font-size: 30px;
+}
+
+.moji {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: left;
+    line-height:2;
+}
+
+.film {
+    top: 0px;
+    height: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+
+.miryoku_img {
+    background-image: url(../img/miryoku.svg);
+    width: 600px;
+    align-items: center;
+    scale: 0.4;
+}
+
+.grid-container {
+    margin-top: 20px;
+    display: grid;
+    gap: 0;
+    width: 100%;
+    height: 100vh;
+    align-self: flex-end;
+}
+
+.img1 { grid-column: 1 / span 1; grid-row: 1 / span 1; }
+.img2 { grid-column: 1 / span 1; grid-row: 5 / span 1; }
+.img3 { grid-column: 1 / span 1; grid-row: 9 / span 1; }
+
+.art1 { grid-column: 2 / span 10; grid-row: 1 / span 4; }
+.art2 { grid-column: 2 / span 10; grid-row: 5 / span 4; }
+.art3 { grid-column: 2 / span 10; grid-row: 9 / span 2; }
+
+.img1 img {
+    width: 100%;
+}
+
+.img2, .img3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    scale: 2;
+}
+
+.miryoku {
+    height: 1200px;
+}
+
+.miryoku_midasi {
+    font-size: 20px;
+        -webkit-text-stroke-width: 0px;
+        color: #F27100;
+}
+
+.miryoku_moji {
+    font-size: 14px;
+}
+
+/*////////////////////////////////////////////////////////////*/
+
+.osusume_film {
+    height: 98.5%;
+}
+
+.osusume-midasi {
+    scale: 0.6;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.osusume-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 12px;
+}
+
+.osusume-flex-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.osusume-photo {
+    margin-bottom: 12px;
+}
+
+.miryoku_moji {
+    width: 100%;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+  .os_back {
+    width: 100%;
+    background-image: url(../img/back.svg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 2650px;
+}
+
+.os_film {
+    padding: 16px;
+    top: 14px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    width: 97%;
+    height: 99%;
+    flex-shrink: 0;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: 0px 0px 25px -10px #F27100;
+}
+
+.osusume {
+    height: 2100px;
+}
+
+.osusume_img {
+    background-image: url(../img/osusume.svg);
+    display: block;
+    width: 1200px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    scale: 0.4;
+}
+
+/* 画像のスタイル */
+.osusume-btn-img {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    flex-direction: column;
+}
+
+.osusume-flex-row{
+    display: block;
+    flex-direction: column;
+    height:500px;
+}
+
+.osusume-btns{
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    flex-direction: column;
+}
+
+.os_title {
+    font-size: 1.6rem;
+}
+
+.osusume-title-flex {
+    gap: 0px;
+}
+
+.kihon {
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.os-kihon_wrap {
+    width: 100%;
+    margin: 0 auto 10px auto;
+    border-radius: 16px;
+    padding: 5px 32px 0px 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.os_list_wrap {
+    width: 90%;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.os_list{
+    list-style: none;
+    padding-left: 16px;
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: #F27100 -3px 0px 0px 0px;
+}
+
+.os_list2 {
+    list-style: none;
+    padding-left: 24px;
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+.memo_wrap_wrap {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    flex-direction: column;
+}
+
+.os_memo {
+    font-size: 1rem;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.memo_moji{
+    font-size: 0.8rem;
+    line-height: 200%;
+}
+
+.os_img {
+    display: block;
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+/*////////////////////////////////////////////////////*/
+
+.syouhinn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    justify-content: center;
+    margin: 0px 0;
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 24px 20px 20px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.card_title{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card_nedan {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+}
+
+.card_comment{
+    text-align: left;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+
+}
+
+.card_moji{
+    margin-top: 25px;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+/*////////////////////////////////////////////////////*/
+
+.button_back {
+    margin-top: 50px;
+    cursor: pointer;
+    transition: filter 0.2s;
+    scale: 0.7;
+}
+
+}
